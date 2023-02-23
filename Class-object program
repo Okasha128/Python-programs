@@ -1,0 +1,20 @@
+class Person: 
+    name = "OKASHA"
+    Age = 25 
+    occupation = "Electronics Engineer" 
+    networth = 10 
+    def info(self):
+        print(f"{self.name} is an {self.occupation}")
+
+a = Person()
+b = Person()
+c = Person()
+
+
+a.name = "Wahab"
+a.occupation = "Government Servant"
+b.name = "Riaz"
+b.occupation = "Industrial Engineer"
+a.info()
+b.info()
+c.info()
