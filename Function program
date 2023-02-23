@@ -1,0 +1,11 @@
+def percent (marks):
+    p = ((marks[0] + marks[1] + marks[2] + marks[3])/400)*100
+    return p
+
+
+
+Marks1= [45,56,65,34]
+percentage1 = percent(Marks1)
+Marks2 = [34,87,99,65]
+percentage2 = percent(Marks2)
+print(percentage1, percentage2)
