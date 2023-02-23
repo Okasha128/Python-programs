@@ -1,0 +1,28 @@
+# a = 12
+# 1. if elif and else ladder
+# if(a>10):
+#   print("The value of a is greater than 10")
+# elif(a>8):
+   #  print("The value of a is greater than 8")
+# elif(a>5):
+  #   print("The value if a is greater than 5")
+# else:
+  #  print("The value is not greater than 10, 8 or 7")
+
+
+# 2. Multiple if statements
+# a = 4
+# if(a>10):
+  #  print("The value of a is greater than 10")
+# if(a>8):
+  #   print("The value of a is greater than 8")
+# if(a>5):
+  #   print("The value if a is greater than 5")
+# else:
+  #  print("The value is not greater than 10, 8 or 7")
+
+#a = 22
+#if (a>15):
+ #   print("Greater")
+# else:
+  #  print("Lesser")
