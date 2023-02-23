@@ -1,0 +1,7 @@
+# Use open function to read the content of a file!
+# f = open("09_sample.txt", "r")
+f = open("09_sample.txt") # by default the mode is r 
+# data = f.read()
+data = f.read(6) # it reads first 6 characters from the file
+print(data)
+f.close()
