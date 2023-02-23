@@ -1,0 +1,20 @@
+# myDict = {
+   # "virat": "Consistency" ,
+      # "marks" : [1,2,9] ,
+   # "anotherDict" : {"Okasha": "Player"}
+
+# }
+ # Methods of Dictionaries
+# print(myDict.keys()) # it returns a list containning dictionary's keys
+ # print(type(myDict.keys())) # it provide which type of fuction
+# print(list(myDict.keys())) # prints the keys of the dictionaries
+# print(list(myDict.values())) # it provide us the list of keys
+# print(myDict.items()) # print the (key,value) for all contents of the dictionary
+# updateDict = {
+#"Lavish": "Friend",
+ # "Babar":"Friend", 
+ # "virat": "Run Machine" # we use this key in above. so it updated this key
+# }
+# myDict.update(updateDict) # update the dictionary by adding key-value pairs from updateDict
+# print(myDict.get["virat2"]) # Returns none as virat2 is not present in the dictionary
+# print(myDict["virat2"]) # throw an error as virat2 is not present in the dictionary
