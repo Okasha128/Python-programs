@@ -1,0 +1,21 @@
+# Creating an empty set
+b = set()
+print(type(b))
+
+# Adding values to an empty set
+#b.add(4)
+# b.add(5)
+# b.add(5) # adding a value repeatedly does not changes a set
+# Accessing Elements
+# b.add ([4,5,6]) # you can't add list in a set because it is unhashable which means it can be change
+# b.add((4,5,6)) # you can add tuples in a set because they are unchangeable
+# b.add({4:5}) # you can't add dictionary too in a set because it is unhashable
+# print(b)
+# Length of the set
+# print(len(b)) # prints the length of this set
+# Removal of an item
+#b.remove(5) # Removes 5 from set 
+# b.remove(15) # this will show error as value is not present in a set
+#print(b.pop())
+# print(b.clear())
+# print(b)
