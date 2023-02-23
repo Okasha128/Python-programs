@@ -1,0 +1,10 @@
+class Person:
+    def __init__(self,name,occupation):
+        print("Hello, I am Back!")
+        self.name = name
+        self.occupation = occupation
+    def info(self):
+        print(f"{self.name} is a {self.occupation}")
+
+a = Person("Ahmed", "Software Developer")
+a.info()
