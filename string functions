@@ -1,0 +1,9 @@
+# story = '''it's incredible, Pakistan qualified for the semi final and will be facing Newzland on 
+# wednesday, we hope Pakistan will be gonna win this encounter'''
+# story functions
+# print(len(story)) # it tell us the length of our story or we can say how many words in our story
+# print(story.endswith("win this encounter")) # it tell us about where we ends with our story. 
+# print(story.count("Pa")) # it count a certain word how many times use in our story. 
+# print(story.capitalize()) # if our story are not start with capital letter, it automatically display us capital letter.
+# print(story.find("Newzland")) # it provide us where our certain word is. 
+# print(story.replace("Newzland", "England")) # it replace any word or sentence in our story.
