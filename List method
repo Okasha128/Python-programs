@@ -1,0 +1,9 @@
+# L1 = [1,6,4,5,8]
+# L1.sort() # sorts the list can be [1,4,5,6,8]
+# L1.reverse() # reverses the list can be [8,5,4,6,1]
+# L1.append(45) # adds at the end of the list can be [1,6,4,5,8,45]
+# L1.insert(2,23) # inserts 23 at index 2 can be [1,6,23,4,5,8]
+# L1.pop(2) # delete element at index 2 [1,6,5,8]
+# L1.remove(5) # remove 5 from the list can be [1,6,4,8]
+# L1.remove(8) # remove 8 from the list can be [1,6,4,5]
+# print(L1)
