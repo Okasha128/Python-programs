@@ -1,0 +1,14 @@
+class Person: 
+    name = "OKASHA"
+    Age = 25 
+    occupation = "Electronics Engineer" 
+    networth = 10 
+
+a = Person()
+b = Person()
+a.name = "Karthik"
+a.occupation = "Software Developer"
+b.name = "Ali"
+b.occupation = "Business Man"
+print(a.name, a.occupation)
+print(b.name, b.occupation)
