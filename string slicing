@@ -1,0 +1,9 @@
+#greeting = "Good Morning,"
+#name = "Okasha" # --> This is called concatenating two strings
+# c = greeting + name
+# name = "Ali is a wise man"
+# name[3] = "d" # --> it does not work, you can't change thr character of string like this
+# print(name[:4]) # --> is same as [0:4], it automatically cover behind characters
+# print(name[0:]) # --> is same as [0:6], it automatically cover above characters
+# print(name[-5:-1]) # --> is same as [1:5]
+# print(name[0::3]) # --> it skip next two character
