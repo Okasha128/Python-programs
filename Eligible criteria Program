@@ -1,0 +1,13 @@
+# Write a program based on eligible or non-eligible criteria 
+# age = int(input("Enter your age: "))
+# if (age>18 and age<=30): # use and operation
+  #  print("You are eligible")
+# else:
+  #  print("You are not eligible")
+
+
+age = int(input("Enter your age: "))
+if (age>18 or age<35):
+    print("You are eligible")
+else:
+    print("You are not eligible")
