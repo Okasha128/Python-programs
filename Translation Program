@@ -1,0 +1,13 @@
+# Write a program to create a dictionary of Urdu words with values as their english translation. 
+# provide user with an option to look it up!
+MyDict = {
+    "Takiya": "Pillow", 
+    "Kursi": "Chair",
+    "Kitaab": "Book",
+}
+print("Options are", MyDict.keys())
+a = input("Enter the Urdu word\n")
+print("The meaning of your word is:", MyDict[a])
+
+# Below line will not throw an error if the key is not present in the Dictionary
+print("The meaning of your word is:", MyDict.get[a])
